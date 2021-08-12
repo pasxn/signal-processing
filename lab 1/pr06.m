@@ -14,7 +14,7 @@ plot(t, x1, 2*t, x1);
 grid on
 xlim([-1 6]);
 ylim([-1 4]);
-legend('x(t)', 'x(2t)');
+legend('x(t)', 'x(0.5t)');
 grid on
 
 figure();
@@ -22,7 +22,7 @@ plot(t, x2, 2*t, x2);
 grid on
 xlim([-1 12]);
 ylim([-1 4]);
-legend('x(t)', 'x(2t)');
+legend('x(t)', 'x(0.5t)');
 grid on
 
 % x(0.5t)
@@ -31,7 +31,7 @@ plot(t, x1, 0.5*t, x1);
 grid on
 xlim([-1 5]);
 ylim([-1 3]);
-legend('x(t)', 'x(0.5t)');
+legend('x(t)', 'x(2t)');
 grid on
 
 figure();
@@ -39,7 +39,7 @@ plot(t, x2, 0.5*t, x2);
 grid on
 xlim([-1 5]);
 ylim([-1 4]);
-legend('x(t)', 'x(0.5t)');
+legend('x(t)', 'x(2t)');
 grid on
 
 

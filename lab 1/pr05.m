@@ -8,7 +8,7 @@ x2 = heaviside(t) + (t-1).*heaviside(t-1) + (3-t).*heaviside(t-3) - 3*heaviside(
 
 % PR.05
 
-% x(?t)
+% x(-t)
 figure();
 plot(t, x1, -t, x1);
 grid on
