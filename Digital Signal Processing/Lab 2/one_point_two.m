@@ -1,7 +1,5 @@
 clc; clear all; close all;
 
-n = (0: 0.1: 5);
-
 fs = 16;
 ts = 1/fs;
 
